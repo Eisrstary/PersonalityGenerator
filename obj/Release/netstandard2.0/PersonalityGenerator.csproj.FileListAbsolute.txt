@@ -1,0 +1,8 @@
+D:\DevelopmentObject\CSharp\PersonalityGenerator\bin\Release\netstandard2.0\PersonalityGenerator.deps.json
+D:\DevelopmentObject\CSharp\PersonalityGenerator\bin\Release\netstandard2.0\PersonalityGenerator.dll
+D:\DevelopmentObject\CSharp\PersonalityGenerator\bin\Release\netstandard2.0\PersonalityGenerator.pdb
+D:\DevelopmentObject\CSharp\PersonalityGenerator\obj\Release\netstandard2.0\PersonalityGenerator.csproj.AssemblyReference.cache
+D:\DevelopmentObject\CSharp\PersonalityGenerator\obj\Release\netstandard2.0\PersonalityGenerator.GeneratedMSBuildEditorConfig.editorconfig
+D:\DevelopmentObject\CSharp\PersonalityGenerator\obj\Release\netstandard2.0\PersonalityGenerator.csproj.CoreCompileInputs.cache
+D:\DevelopmentObject\CSharp\PersonalityGenerator\obj\Release\netstandard2.0\PersonalityGenerator.dll
+D:\DevelopmentObject\CSharp\PersonalityGenerator\obj\Release\netstandard2.0\PersonalityGenerator.pdb
