@@ -4,19 +4,19 @@ obj/
 StressTest/bin/
 StressTest/obj/
 
-# 编译生成的二进制文件
+# 二进制文件
 *.dll
 *.exe
 *.pdb
 *.so
 *.dylib
 
-# 临时缓存文件
+# 缓存文件
 *.cache
 *.tmp
 *.log
 
-# IDE 个人设置
+# IDE 配置
 .vs/
 .idea/
 *.user
