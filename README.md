@@ -120,7 +120,7 @@ PersonalityGenerator/
 
 ### License
 
-MIT
+Apache
 
 ---
 
@@ -246,4 +246,4 @@ PersonalityGenerator/
 
 ### 许可证
 
-MIT
+Apache
