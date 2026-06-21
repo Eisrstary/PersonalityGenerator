@@ -170,10 +170,12 @@ namespace PersonalityGenerator
             Values = vals; Missing = miss;
             var sb = new StringBuilder();
             int c = 0;
-            for (int i = 0; i < 84 && c < 3; i++)
+            for (int i = 0; i < 84 && c < 4; i++)
             {
-                if (!miss[i]) { sb.Append(vals[i].ToString("F2")); if (c < 2) sb.Append("|"); c++; }
+                if (!miss[i]) { sb.Append(vals[i].ToString("F4")); if (c < 3) sb.Append("|"); c++; }
             }
+            // 补充缺失情况下的兜底
+            if (c == 0) sb.Append("ALL_MISSING");
             Fingerprint = sb.ToString();
         }
 
