@@ -1,3 +1,4 @@
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [English](#english) | [中文](#中文)
 
 ---
@@ -120,7 +121,7 @@ PersonalityGenerator/
 
 ### License
 
-Apache
+Apache-2.0
 
 ---
 
@@ -246,4 +247,6 @@ PersonalityGenerator/
 
 ### 许可证
 
-Apache
+Apache-2.0
+## License
+This project is licensed under the Apache License, Version 2.0 - see the [LICENSE](LICENSE) file for details.
