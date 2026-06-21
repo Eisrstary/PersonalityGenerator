@@ -6,23 +6,23 @@
 
 # PersonalityGenerator
 
-A zero-dependency, deterministic personality parameter generation library for .NET Standard 2.0.  
+A no-dependency, deterministic personality parameter generation library for .NET Standard 2.0.  
 Generates AI-readable character profiles from integer seeds for role-playing, simulation, and game development.
 
 ### Overview
 
-PersonalityGenerator transforms a single integer seed into a complete 84-parameter personality profile, then renders it as natural language text suitable for AI-driven character扮演 (role-play). Every personality is fully deterministic — the same seed always produces the exact same character.
+PersonalityGenerator transforms a single integer seed into a full 84-parameter personality profile, then renders it as natural language text suitable for AI-driven character扮演 (role-play). Personalities are deterministic — the same seed produces the same character.
 
 ### Key Features
 
-- **Zero Dependencies** — Pure C# implementation. No external libraries. Compatible with Unity, WASM, iOS, Android, and any .NET runtime.
-- **Deterministic** — Same seed → same personality. Perfect for procedural generation, save systems, and reproducible simulations.
+- **No External Dependencies** — Pure C# implementation. Compatible with Unity, WASM, iOS, Android, and common .NET runtimes.
+- **Deterministic** — Same seed → same personality. Suitable for procedural generation, save systems, and reproducible simulations.
 - **84 Atomic Parameters** — Covers 8 domains: perception, memory, cognition, emotion, motivation, behavior, social signals, meta-cognition, embodiment, and temporal development.
 - **Bias System** — Steer generation toward specific traits with a simple string-based DSL: `"B015=0.9,D040=-0.8,S=0.85"`.
 - **Partial Missing** — ~15% of parameters are randomly omitted to simulate realistic human incompleteness.
 - **3 Output Formats** — Roleplay (AI-ready character sheet), Compact (key traits only), Detailed (full parameter report).
-- **Battle-Tested** — Validated through 111 billion+ personality generations with zero errors.
-- **Lightweight** — Release DLL is only 22 KB.
+- **Tested** — Stress-tested across large-scale generation runs with no known logic errors.
+- **Lightweight** — Release DLL is approximately 22 KB.
 
 ### Quick Start
 
@@ -128,23 +128,23 @@ MIT
 
 # PersonalityGenerator（人格生成器）
 
-零依赖、确定性的 .NET Standard 2.0 人格参数生成类库。  
+无外部依赖、确定性的 .NET Standard 2.0 人格参数生成类库。  
 从整数种子生成 AI 可读的角色人设文本，用于角色扮演、模拟和游戏开发。
 
 ### 概述
 
-PersonalityGenerator 将单个整数种子转换为完整的 84 参数人格画像，然后渲染为适合 AI 角色扮演的自然语言文本。每个人格都是完全确定性的——相同的种子总是产生完全相同的角色。
+PersonalityGenerator 将单个整数种子转换为 84 参数人格画像，然后渲染为适合 AI 角色扮演的自然语言文本。人格生成是确定性的——相同的种子产生相同的角色。
 
 ### 核心特性
 
-- **零依赖**——纯 C# 实现，无任何外部库。兼容 Unity、WASM、iOS、Android 及所有 .NET 运行时。
+- **无外部依赖**——纯 C# 实现，兼容 Unity、WASM、iOS、Android 及常见 .NET 运行时。
 - **确定性**——相同种子 → 相同人格。适用于程序化生成、存档系统和可复现模拟。
 - **84 个原子参数**——覆盖 8 大领域：感知注意、情绪生成、动机价值、行为执行、元认知自我、社交信号、时间性发展、身体环境耦合。
 - **偏向系统**——通过简洁的字符串 DSL 控制生成倾向：`"B015=0.9,D040=-0.8,S=0.85"`。
 - **参数缺失**——约 15% 的参数随机缺失，模拟真实人类的不完整性。
 - **3 种输出格式**——角色扮演（AI 可读人设）、紧凑模式（仅关键特征）、详细模式（完整参数报告）。
-- **久经考验**——通过 111 亿+ 人格生成的极限压力测试，零错误。
-- **轻量**——发行版 DLL 仅 22 KB。
+- **经过测试**——经过大规模批量生成压力测试，核心逻辑稳定可靠。
+- **轻量**——发行版 DLL 约 22 KB。
 
 ### 快速开始
 
